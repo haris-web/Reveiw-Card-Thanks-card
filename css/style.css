@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: ;
+}
+body{
+    background-color: #141519;
+}
+li {
+   list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.box{
+    width: 100%;
+    height: 96.8vh;
+    
+    position: absolute;
+}
+
+.box-center-width{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: (50%,-50%);
+    transform: translate(-50%, -50%);
+    width: 370px;
+    
+    
+    border-radius: 20px;
+    background-color: #202731;
+}
+.box-content{
+    padding: 32px;
+}
+.button-list{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    justify-content: center;
+}
+.round{
+    width: 20px;
+    height: 20px;
+   
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #262f38;
+    color: #868f98;
+    font-weight: 900;
+}
+.round:hover{
+ background-color: #fd790d;
+ color: #fbffff;
+}
+.submit-btn {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 27px;
+    width: 239px;
+    height: 40px;
+   
+    margin: auto;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #fd790d;
+    cursor: pointer;
+}
+.submit-btn span a{
+    color: #fbffff;
+}
+.submit-btn:hover span a:hover{
+    color: hsl(0, 0%, 0%);
+   
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fbffff;
+    text-transform: uppercase;
+    padding-top: 8px;
+   
+}
+.box-center-width span:hover{
+    color: #fd790d;
+    background-color: ;
+}
+span {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.box-heading{
+    margin-top: 25px;
+    color:#fbffff;
+    font-weight: 600;
+}
+.para-text{
+    margin-top: 12px;
+    color: #868f98;
+}
+
+.box-content-review{
+    padding-top: 38px;
+  text-align: center;
+}
+.rev-img {
+    width: 100px;
+    height: 103px;
+}
+h1.thanku {
+    margin-top: revert;
+    color: #fbffff;
+}
+.thanku-para{
+    color: #868f98;
+    font-size: 15px;
+    margin-top: revert;
+    padding: 0 25px;
+    margin-bottom: 20px;
+}
+.thanku-btn sp{
+    color: #fd790d;
+}
+
+@media screen and (max-width: 370px) {
+    
+    .box-center-width {
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        translate: (50%,-50%);
+        transform: translate(-50%, -50%);
+        width: 326px;
+        border-radius: 20px;
+        background-color: #202731;
+    }
+  }
